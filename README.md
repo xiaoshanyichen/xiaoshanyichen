@@ -43,4 +43,4 @@ prototype the whole path  ->  measure the failure modes  ->  improve the system
 
 I'm always interested in thoughtful conversations about generative modeling, reliable AI systems, accessibility, and the engineering that connects them.
 
-[Email](mailto:ycao469@gatech.edu) · [LinkedIn](https://www.linkedin.com/in/yichen-cao-85815123a/) · [GitHub](https://github.com/xiaoshanyichen)
+[Email](mailto:ycao469@gatech.edu) · [LinkedIn](https://www.linkedin.com/in/yichen-cao-85815123a/)
