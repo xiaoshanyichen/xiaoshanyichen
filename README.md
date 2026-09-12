@@ -1,78 +1,46 @@
-# 🌟 Yichen Cao - Software Engineer in the Making
+# Hi, I'm Yichen 👋
 
-👋 Hello! I’m Yichen Cao, a passionate Software Engineering student at McGill University with a strong foundation in both front-end and back-end development. With a GPA of 3.70/4.00, I’ve been fortunate to be on the Dean's Honour List and receive the William Henry Howard Scholarship. I love diving into challenging projects that push the boundaries of what’s possible, and I'm always on the lookout for opportunities to apply my skills in real-world applications.
+### I build intelligent systems that have to work beyond the demo.
 
----
+I'm a computer science graduate student at Georgia Tech with a software engineering background from McGill. I enjoy the seams between **machine learning, systems, and real-world products** - the places where a model needs good data, honest evaluation, reliable infrastructure, and a thoughtful interface before it becomes useful.
 
-## 🚀 My Mission
+My favorite projects are end to end: I like taking an idea from a rough experiment to something measurable, debuggable, and usable by an actual person.
 
-To design, develop, and deliver cutting-edge software solutions that make a real impact. I believe in the power of technology to solve complex problems, and I strive to create applications that are not only functional but also user-friendly and efficient.
+## What I'm exploring
 
----
+- **Generative models you can evaluate.** I built conditional and unconditional diffusion pipelines for multi-channel geological facies data, then designed the probability-map, distributional, Sliced-Wasserstein, and embedding-based evaluations used to compare model iterations.
+- **Accessible AI that can move with you.** For **CyberGlass**, my team is building low-cost smart glasses that turn live scenes into spoken descriptions. I worked across an ESP32-S3, a Flutter companion app, multimodal AI, and a custom 8-channel BLE protocol that reached 2.5 fps without relying on Wi-Fi.
+- **Software that explains its failures.** My work in test automation made me care about observability as much as correctness - from reusable page models and resilient waits to per-action screenshots and network logs.
 
-## 🛠️ Technical Skills
+## Selected builds
 
-### **Programming Languages**
-- **Proficient:** Java, Python, C, Bash, C++, JavaScript, HTML, CSS
-- **Experienced:** NodeJS, VHDL
+| Project | The interesting part | Built with |
+| --- | --- | --- |
+| **CyberGlass** *(capstone)* | A mobile assistive system with proactive narration, object finding, bidirectional audio, and differentiated haptic feedback | ESP32-S3, Flutter, BLE, Gemini Live API |
+| **Generative facies modeling** *(research)* | Conditional diffusion over 4-channel spatial data, with an evaluation suite built to reveal more than a single score | PyTorch, Hugging Face Diffusers |
+| [Chinese OCR correction corpus](https://github.com/xiaoshanyichen/Automated-Generation-of-Chinese-Text-Correction-Corpora) | Turns disagreement between PDF text extraction and OCR into paired correction data; includes a T5-style correction pipeline | Python, PaddleOCR, Hugging Face |
+| [Simulated operating system shell](https://github.com/xiaoshanyichen/simple-operating-system) | Scheduling, multithreading, demand paging, LRU eviction, and a small filesystem-like command environment | C |
+| [Cross-genre semantic role labeling](https://github.com/xiaoshanyichen/NLP-SRL-Cross-Genre-Evaluating-Semantic-Role-Labeling-with-Pretrained-Models) | Studies how pretrained SRL models generalize - and fail differently - across OntoNotes genres | Python, NLP |
+| [Hotel management system](https://github.com/xiaoshanyichen/hotel-management-software-system) | A full-stack booking and management workflow with separate client and service layers | Java, Spring, Vue |
 
-### **Development Tools**
-- **IDEs:** Visual Studio, Eclipse, IntelliJ, PyCharm, Cloud9
-- **Database Management:** MySQL, Oracle, OceanBase
+## How I like to work
 
-### **Languages**
-- **English:** Fluent
-- **Mandarin:** Fluent
+```text
+prototype the whole path  ->  measure the failure modes  ->  improve the system
+```
 
----
+- Make evaluation part of the architecture, not an afterthought.
+- Build the "boring" infrastructure that makes experiments repeatable.
+- Design around the person using the system and the constraints they actually have.
 
-## 💼 Professional Experience
+## Toolbox
 
-### **Software Developer Intern | Hundsun Technologies Inc. | Summer 2023**
-- **Optimized** a critical bank-teller interface, reducing data synchronization time by a remarkable 40%, which significantly improved customer interaction speed.
-- **Engineered** both front-end and back-end components from scratch, adding new features to the bank-teller interface, which enhanced user functionality and interface interactions.
-- **Collaborated** closely with the testing department, ensuring that every piece of code I delivered was robust, reliable, and error-free—an achievement that earned commendation from my team.
-- **Maintained** legacy systems by adapting to evolving client requirements, demonstrating my ability to work with both new and old codebases.
-- **Authored** reusable scripts that were adopted for future testing and modifications, showcasing my commitment to sustainable development practices.
+**ML & research:** Python, PyTorch, Hugging Face Diffusers  
+**Systems & backend:** C/C++, Java, Spring Boot, Redis, SQL, Docker, Linux  
+**Product & reliability:** Flutter, Selenium, pytest/JUnit, Git
 
-### **Software Developer Co-op | Suzhou Xiangcheng Construction Supervision Co. | Summer 2024**
-- **Spearheaded** the development of a WeChat Mini Program using React and Tencent Cloud, which streamlined communication and approval processes, leading to a 30% reduction in project delays—a game changer in the construction industry.
-- **Implemented** a secure, scalable file storage solution on Tencent Cloud, which significantly improved data accessibility and efficiency in project management.
-- **Led** the full-stack development of the application, handling everything from front-end design to back-end database integration, and delivered a fully functional deployment on schedule.
-- **Enhanced** user satisfaction by 25% through rigorous user testing and iterative design improvements, based on direct client feedback.
+## Let's connect
 
----
+I'm always interested in thoughtful conversations about generative modeling, reliable AI systems, accessibility, and the engineering that connects them.
 
-## 💻 Software Engineering Projects
-
-### **Hotel User/Manager System (Java, Vue) | November 2023**
-- **Developed** a comprehensive hotel booking system using the Spring framework, allowing users to seamlessly register, log in, and book rooms.
-- **Deployed** the system on a local machine and conducted a mock presentation to clients and stakeholders, showcasing its potential real-world application.
-- **Collaborated** in an Agile environment, participating in sprints and daily stand-ups, which honed my ability to work efficiently and effectively in a team.
-
-### **AWS Memo Website (JavaScript, HTML, CSS) | December 2023 - Present**
-- **Created** a personal Memo website leveraging AWS services like Lambda, Cognito, Amplify, IAM, and DynamoDB, providing a robust platform for note-taking and task management.
-- **Implemented** user authentication and a dynamic Memo workspace, featuring sticky notes sorted by urgency and importance.
-- **Utilized** RESTful APIs to facilitate dynamic data exchange between the front-end and serverless back-end, ensuring smooth and responsive user interactions.
-- **Currently Developing** a “group” feature to allow users to share memo workspaces, with real-time synchronization of sticky notes—a collaborative tool that fosters teamwork and efficiency.
-
----
-
-## 🎮 Career-Related Experiences
-
-### **Game Dev Engineering Advisor | December 2022 – May 2023**
-- **Organized** and **led** events such as McGameJam 2023, creating opportunities for students to engage with the McGill Engineering department and explore their passion for game development.
-
----
-
-## 🌱 What’s Next?
-
-I’m constantly seeking out new challenges and opportunities to grow. If you’re looking for a dedicated and enthusiastic software engineer who’s ready to make an impact, let’s connect! Whether it’s through contributing to innovative projects, collaborating on open-source initiatives, or exploring new technologies, I’m eager to bring my skills and passion to the next big thing.
-
----
-
-📫 **Contact Me:**
-- **Email:** yichen.cao@mail.mcgill.ca
-- **LinkedIn:** [Yichen Cao](https://www.linkedin.com/in/yichen-cao-85815123a)
-
-Let’s build something amazing together!
+[Email](mailto:ycao469@gatech.edu) · [LinkedIn](https://www.linkedin.com/in/yichen-cao-85815123a/) · [GitHub](https://github.com/xiaoshanyichen)
