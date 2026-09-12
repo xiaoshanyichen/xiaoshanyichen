@@ -1,4 +1,4 @@
-# Hi, I'm Yichen 👋
+# Hi, I'm Yichen, you can call me Simon 👋
 
 ### I build intelligent systems that have to work beyond the demo.
 
